@@ -1,0 +1,13 @@
+{"message": "This purchase was my worst mistake"}
+{"message": "This ruined my life"}
+{"message": "The smell is the worst part"}
+{"message": "It is too difficult"}
+{"message": "Would recommend if it wasn't so overpriced"}
+{"message": "Such a great experience"}
+{"message": "Everyone should watch this"}
+{"message": "I love to watch this movie again and again"}
+{"message": "This could not have helped more"}
+{"message": "My mom  enjoys listening to it"}
+
+
+Comando linux: curl --header "Content-Type: application/json"  -X POST http://localhost:5000/predict --data '{"message": "Everyone should watch this"}'
