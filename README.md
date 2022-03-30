@@ -17,14 +17,6 @@ Atualmente, sua equipe de cientistas de dados já construiu uma versão inicial 
 
 - [Imagem Docker](https://hub.docker.com/repository/docker/cristinaabrantes/fiap_challege_7)
 
-## Screenshots
-
-![Home Page](/screenshots/1.png "Home Page")
-
-![](![image](https://user-images.githubusercontent.com/97312034/160935098-851552c2-0d9e-40ea-a98c-e83197ac0d8a.png))
-
-![](![image](https://user-images.githubusercontent.com/97312034/160935123-f43f8392-ec8b-402d-a4c7-6afc6fe23059.png))
-
 ## Criação e envio de imagem Docker
 
 ### Criação da Imagem do Docker:
