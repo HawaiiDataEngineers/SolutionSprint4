@@ -50,7 +50,11 @@ Atualmente, sua equipe de cientistas de dados já construiu uma versão inicial 
 
 ### Verificar status do pods
 > "kubectl get pods"
+
+### Verificar log da execução do pods
 > "kubectl logs fiap-challenge-4-79c6bb8cfc-llgzl"
+
+### Definição da porta do Endpoint
 > "kubectl port-forward fiap-challenge-4-79c6bb8cfc-llgzl 8888:8888"
 
  
