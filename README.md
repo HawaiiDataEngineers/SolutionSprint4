@@ -37,13 +37,18 @@ Atualmente, sua equipe de cientistas de dados já construiu uma versão inicial 
 
 ## Azure Kubernetes
 
-### Subir um pod e disponibilizar o endpoint para consulta via Postman
- 
+### Login na AZ e na subscrição do Kubernetes criado
 > "az login"
 > "az account set --subscription 1e496a65-f1dc-459e-9fc0-068d9c655XXX"
 > "az aks get-credentials --resource-group rg-fiap-challenge-4 --name aks-fiap-challenge-4"
+
+### Login na AZ e na subscrição do Kubernetes criado
 > "kubectl get pods"
+
+### Login na AZ e na subscrição do Kubernetes criado
 > "kubectl create deployment fiap-challenge-4 --image=cristinaabrantes/fiap_challege_sentiment_7:1.0.0"
+
+### Verificar status do pods
 > "kubectl get pods"
 > "kubectl logs fiap-challenge-4-79c6bb8cfc-llgzl"
 > "kubectl port-forward fiap-challenge-4-79c6bb8cfc-llgzl 8888:8888"
