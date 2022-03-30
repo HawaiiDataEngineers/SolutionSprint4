@@ -1,8 +1,17 @@
 ## SolutionSprint4
     
-<h1 align="center"><SolutionSprint4></h1>
 
-<p align="center"><project-description></p>
+<p>Na 4ª fase Applying Analytics Arquitecture – Enterprise Analytics, Estatística e Mineração de Dados, In memory Database e Creative Thinking – vamos construir um ambiente analítico. 
+
+Para isso, nosso consultor Thiago Nascimento Nogueira nos traz um cenário.
+
+Observando o grande aumento pela demanda de soluções em inteligência artificial, seu grupo resolveu montar uma startup para desenvolvimento de projetos na área.
+
+Após uma extensa pesquisa de mercado, notaram que um nicho muito interessante pode ser a atuação na indústria de varejo, mais especificamente com o desenvolvimento de um produto para análise de sentimentos de avaliações dos clientes. Além disso, após alguns estudos de custos e escalabilidade, ficou definido que as soluções apresentadas pela empresa deverão utilizar a estrutura de cloud computing.
+
+Após algumas reuniões e apresentações, a rede de varejo OMNIline demonstrou grande interesse na contratação da sua empresa para a entrega de um MVP (Minimum Viable Product). Para isso, sua empresa deverá disponibilizar um serviço na internet que permita fazer a análise de sentimentos de avaliações dos clientes.
+
+Atualmente, sua equipe de cientistas de dados já construiu uma versão inicial do modelo rodando em suas máquinas locais. Nosso objetivo será disponibilizar este modelo na cloud para consultas num ambiente que permita o treinamento e publicação de novos modelos na cloud, de maneira centralizada. Posteriormente, a solução será industrializada com a utilização de containers em conjunto com soluções gerenciadas de kubernetes da cloud, como o Azure AKS.></p>
 
 ## Links
 
@@ -40,12 +49,12 @@
  
 > "az login"
 > "az account set --subscription 1e496a65-f1dc-459e-9fc0-068d9c655XXX"
-> "az aks get-credentials --resource-group rg-fiap-challenge-2 --name aks-fiap-challenge-2"
+> "az aks get-credentials --resource-group rg-fiap-challenge-4 --name aks-fiap-challenge-4"
 > "kubectl get pods"
-> "kubectl create deployment fiap-challenge-2 --image=cristinaabrantes/fiap_challege_sentiment_1:1.0.0"
+> "kubectl create deployment fiap-challenge-4 --image=cristinaabrantes/fiap_challege_sentiment_7:1.0.0"
 > "kubectl get pods"
-> "kubectl logs fiap-challenge-2-79c6bb8cfc-llgzl"
-> "kubectl port-forward fiap-challenge-2-79c6bb8cfc-llgzl 8888:8888"
+> "kubectl logs fiap-challenge-4-79c6bb8cfc-llgzl"
+> "kubectl port-forward fiap-challenge-4-79c6bb8cfc-llgzl 8888:8888"
 
  
 ## Ferramentas Utilizadas 
@@ -57,15 +66,3 @@
 - Azure Kubernetes
 - Anaconda
 - Postman
-
-## Future Updates
-
-- [ ] Reliable Storage
-
-## Author
-
-**Rohit Jain**
-
-- [Profile](https://github.com/rohit19060 "Rohit jain")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
-- [Website](https://kingtechnologies.in "Welcome")
